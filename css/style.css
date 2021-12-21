@@ -22,10 +22,10 @@ a{display:block; text-decoration:none; color:#000;}
 
 
 /* header */
-header{width:100%; height:138px; border-top:4px solid #ff6a00; *zoom:1;}
+header{min-width: 1400px; width:100%; height:138px; border-top:4px solid #ff6a00; *zoom:1;}
 header:after {content:""; display:block; clear:both;}
 
-div#tnb{background-color:#f4f4f6;}
+div#tnb{min-width: 1400px; background-color:#f4f4f6;}
 div#tnb_wrap{width:1140px; height:23px; margin:0 auto; padding:11px 0;}
 
 
